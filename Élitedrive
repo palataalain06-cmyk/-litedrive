@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Elite Drive Kolwezi</title>
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, sans-serif;
+}
+
+body{
+    background:#f5f5f5;
+    color:#333;
+}
+
+header{
+    background:#0047CC;
+    color:white;
+    padding:15px 8%;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+
+.logo{
+    font-size:28px;
+    font-weight:bold;
+}
+
+nav a{
+    color:white;
+    text-decoration:none;
+    margin-left:20px;
+    font-weight:bold;
+}
+
+.hero{
+    background:linear-gradient(rgba(0,0,0,.6),rgba(0,0,0,.6)),
+    url('voiture1.jpg');
+    background-size:cover;
+    background-position:center;
+    color:white;
+    text-align:center;
+    padding:120px 20px;
+}
+
+.hero h1{
+    font-size:50px;
+    margin-bottom:20px;
+}
+
+.hero p{
+    font-size:20px;
+    margin-bottom:30px;
+}
+
+.btn{
+    background:#E53935;
+    color:white;
+    padding:15px 30px;
+    border-radius:30px;
+    text-decoration:none;
+    font-weight:bold;
+}
+
+section{
+    padding:70px 8%;
+}
+
+h2{
+    text-align:center;
+    color:#0047CC;
+    margin-bottom:40px;
+}
+
+.services{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+    gap:20px;
+}
+
+.card{
+    background:white;
+    padding:25px;
+    border-radius:15px;
+    box-shadow:0 5px 15px rgba(0,0,0,.1);
+    text-align:center;
+}
+
+.gallery{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(300px,1fr));
+    gap:20px;
+}
+
+.gallery img{
+    width:100%;
+    border-radius:15px;
+}
+
+.contact{
+    background:#0047CC;
+    color:white;
+    text-align:center;
+}
+
+footer{
+    background:#001B4D;
+    color:white;
+    text-align:center;
+    padding:20px;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+    <div class="logo">ELITE DRIVE</div>
+
+    <nav>
+        <a href="#">Accueil</a>
+        <a href="#">Services</a>
+        <a href="#">Véhicules</a>
+        <a href="#">Contact</a>
+    </nav>
+</header>
+
+<section class="hero">
+    <h1>Elite Drive Kolwezi</h1>
+
+    <p>
+        Transport professionnel, sécurisé et confortable à Kolwezi.
+    </p>
+
+    <a href="https://wa.me/243972951880" class="btn">
+        Réserver Maintenant
+    </a>
+</section>
+
+<section>
+    <h2>Nos Services</h2>
+
+    <div class="services">
+
+        <div class="card">
+            <h3>🚗 Transport Urbain</h3>
+            <p>Déplacements rapides partout à Kolwezi.</p>
+        </div>
+
+        <div class="card">
+            <h3>👩 Chauffeuses</h3>
+            <p>Service assuré par des chauffeuses professionnelles.</p>
+        </div>
+
+        <div class="card">
+            <h3>💼 Service VIP</h3>
+            <p>Confort et qualité pour vos déplacements importants.</p>
+        </div>
+
+        <div class="card">
+            <h3>📅 Réservation</h3>
+            <p>Réservez votre véhicule à l'avance.</p>
+        </div>
+
+    </div>
+</section>
+
+<section>
+    <h2>Nos Véhicules</h2>
+
+    <div class="gallery">
+        <img src="volvo.jpg" alt="Volvo Elite Drive">
+        <img src="minibus.jpg" alt="Minibus Elite Drive">
+    </div>
+</section>
+
+<section class="contact">
+    <h2>Contact</h2>
+
+    <p>📞 0972951880</p>
+    <br>
+
+    <p>💬 WhatsApp : 0972951880</p>
+    <br>
+
+    <p>📍 Kolwezi, RDC</p>
+</section>
+
+<footer>
+    © 2026 Elite Drive Kolwezi - Tous droits réservés.
+</footer>
+
+</body>
+</html>
